@@ -1,0 +1,12 @@
+Dienesch
+--------
+Strategy
+Decorator
+
+
+Factory
+
+Scheuch
+-------
+Proxy
+Observer

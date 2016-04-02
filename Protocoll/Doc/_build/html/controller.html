@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Controller &mdash; Nonogram 11.2.2015 Dokumentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '11.2.2015',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="top" title="Nonogram 11.2.2015 Dokumentation" href="index.html" />
+    <link rel="next" title="Spielfeld" href="spielfeld.html" />
+    <link rel="prev" title="View" href="view.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Stichwortverzeichnis"
+             accesskey="I">Index</a></li>
+        <li class="right" >
+          <a href="spielfeld.html" title="Spielfeld"
+             accesskey="N">weiter</a> |</li>
+        <li class="right" >
+          <a href="view.html" title="View"
+             accesskey="P">zurück</a> |</li>
+        <li><a href="index.html">Nonogram 11.2.2015 Dokumentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="controller">
+<h1>Controller<a class="headerlink" href="#controller" title="Permalink zu dieser Überschrift">¶</a></h1>
+<div class="section" id="documentation">
+<h2>Documentation<a class="headerlink" href="#documentation" title="Permalink zu dieser Überschrift">¶</a></h2>
+<dl class="class">
+<dt id="Controller.nonoControl.NonoController">
+<em class="property">class </em><code class="descclassname">Controller.nonoControl.</code><code class="descname">NonoController</code><span class="sig-paren">(</span><em>parent=None</em><span class="sig-paren">)</span><a class="headerlink" href="#Controller.nonoControl.NonoController" title="Permalink zu dieser Definition">¶</a></dt>
+<dd><p>MVC pattern: Creates a controller - mvc pattern.</p>
+<dl class="method">
+<dt id="Controller.nonoControl.NonoController.changeBg">
+<code class="descname">changeBg</code><span class="sig-paren">(</span><em>row</em>, <em>column</em><span class="sig-paren">)</span><a class="headerlink" href="#Controller.nonoControl.NonoController.changeBg" title="Permalink zu dieser Definition">¶</a></dt>
+<dd><p>Methode changeBg
+Diese Methode aendert die Hintergrundfarbe von einer spezifischen
+Flaeche wenn man darauf klickt
+führt die statistik
+:param row: row of that tile
+:param column: column of that tile
+:return:</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Controller.nonoControl.NonoController.changeDifficulty">
+<code class="descname">changeDifficulty</code><span class="sig-paren">(</span><em>item</em><span class="sig-paren">)</span><a class="headerlink" href="#Controller.nonoControl.NonoController.changeDifficulty" title="Permalink zu dieser Definition">¶</a></dt>
+<dd><p>Methode changeDifficulty
+Aendert den Schwierigkeitsgrad
+:param item:
+:return:</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Controller.nonoControl.NonoController.loesung">
+<code class="descname">loesung</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Controller.nonoControl.NonoController.loesung" title="Permalink zu dieser Definition">¶</a></dt>
+<dd><p>Method loesung
+Zeigt die Loesung an indem die Spielflaechen gefaerbt werden
+:return:</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Controller.nonoControl.NonoController.neustart">
+<code class="descname">neustart</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Controller.nonoControl.NonoController.neustart" title="Permalink zu dieser Definition">¶</a></dt>
+<dd><p>Methode neustart
+Setzt alle Spielzuege sowie Statisiken zurueck
+:return:</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Controller.nonoControl.NonoController.setOben">
+<code class="descname">setOben</code><span class="sig-paren">(</span><em>oben</em><span class="sig-paren">)</span><a class="headerlink" href="#Controller.nonoControl.NonoController.setOben" title="Permalink zu dieser Definition">¶</a></dt>
+<dd><p>Setzt die oberen Angaben für den User
+:param oben: Liste der Angabe
+:return:</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Controller.nonoControl.NonoController.setRechts">
+<code class="descname">setRechts</code><span class="sig-paren">(</span><em>rechts</em><span class="sig-paren">)</span><a class="headerlink" href="#Controller.nonoControl.NonoController.setRechts" title="Permalink zu dieser Definition">¶</a></dt>
+<dd><p>Setzt die rechten Angaben für den User
+:param rechts: Liste der Angabe
+:return:</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Inhalt</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Controller</a><ul>
+<li><a class="reference internal" href="#documentation">Documentation</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Vorheriges Thema</h4>
+  <p class="topless"><a href="view.html"
+                        title="vorheriges Kapitel">View</a></p>
+  <h4>Nächstes Thema</h4>
+  <p class="topless"><a href="spielfeld.html"
+                        title="nächstes Kapitel">Spielfeld</a></p>
+  <div role="note" aria-label="source link">
+    <h3>Diese Seite</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/controller.txt"
+            rel="nofollow">Quelltext anzeigen</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Schnellsuche</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Los" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Geben Sie Suchbegriffe oder einen Modul-, Klassen- oder Funktionsnamen ein.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Stichwortverzeichnis"
+             >Index</a></li>
+        <li class="right" >
+          <a href="spielfeld.html" title="Spielfeld"
+             >weiter</a> |</li>
+        <li class="right" >
+          <a href="view.html" title="View"
+             >zurück</a> |</li>
+        <li><a href="index.html">Nonogram 11.2.2015 Dokumentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2015, Florian Dienesch, Daniel Scheuch.
+      Mit <a href="http://sphinx-doc.org/">Sphinx</a> 1.3b1 erstellt.
+    </div>
+  </body>
+</html>
